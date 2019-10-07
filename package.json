@@ -1,0 +1,29 @@
+{
+  "name": "mp-cz-request",
+  "version": "0.0.1",
+  "description": "微信小程序-网络类",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf index.js && babel src -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenzhe555/mp-cz-request.git"
+  },
+  "keywords": [
+    "mp",
+    "cz",
+    "request",
+    "miniprogram"
+  ],
+  "author": "陈哲是个好孩子",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenzhe555/mp-cz-request/issues"
+  },
+  "homepage": "https://github.com/chenzhe555/mp-cz-request#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1"
+  }
+}
